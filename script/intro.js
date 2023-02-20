@@ -7,5 +7,5 @@ function toggleAnimation() {
   intro.classList.toggle('animate');
   tagline.classList.toggle('animate');
 }
-// Call the toggleAnimation function every 2 seconds
-setInterval(toggleAnimation, 5000);
+// Call the toggleAnimation function every 7 seconds
+setInterval(toggleAnimation, 7000);
