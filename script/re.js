@@ -3,7 +3,7 @@
 var icons = document.querySelectorAll('.social-icon');
 
 // Add event listeners to each icon
-for (var i = 0; i < icons.length; i++) {
+for (let i = 0; i < icons.length; i++) {
   icons[i].addEventListener('mouseenter', function(event) {
     // Add the "hover" class to the icon
     event.target.classList.add('hover');
@@ -13,3 +13,4 @@ for (var i = 0; i < icons.length; i++) {
     event.target.classList.remove('hover');
   });
 }
+
